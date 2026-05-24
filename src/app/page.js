@@ -30,20 +30,20 @@ const projects = [
   {
     title: "E-Commerce Platform",
     desc: "Modern full responsive shopping platform with beautiful UI and smooth UX.",
-    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Next.js", "Tailwind", "MongoDB"], live: "#", github: "#",
+    image: "https://i.ibb.co.com/k23My9nm/Screenshot-2026-05-24-163415.png",
+    tags: ["Next.js", "Tailwind", "MongoDB",'Node.js'], live: "https://assignment-08-suncart.vercel.app/", github: "https://github.com/toufikhossain11/assignment-08-suncart",
   },
   {
-    title: "Admin Dashboard",
+    title: "Job Tracking Website",
     desc: "Analytics dashboard with charts, tables and futuristic glassmorphism design.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Dashboard", "Charts"], live: "#", github: "#",
+    image: "https://i.ibb.co.com/nND3GZdD/Screenshot-2026-05-24-164038.png",
+    tags: ["React", "Dashboard", "Charts"], live: "https://assinment-07-keen-keper.netlify.app/", github: "https://github.com/toufikhossain11/assignment-07",
   },
   {
     title: "Music Streaming UI",
     desc: "Spotify inspired premium music interface with smooth animations.",
-    image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop",
-    tags: ["UI/UX", "Frontend", "Animation"], live: "#", github: "#",
+    image: "https://i.ibb.co.com/jvFPq1TS/Screenshot-2026-05-24-164335.png",
+    tags: ['Next.js',"UI/UX", "Frontend", "Animation"], live: "https://assinment-06-digitools-platform.netlify.app/", github: "https://github.com/toufikhossain11/assignment-06",
   },
 ];
 
