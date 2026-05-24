@@ -400,8 +400,8 @@ export default function PortfolioPage() {
               </p>
               <div className="mt-10 space-y-4">
                 {[
-                  { Icon: FaEnvelope,     text: "yourname@gmail.com" },
-                  { Icon: FaPhoneAlt,     text: "+880 1XXX-XXXXXX" },
+                  { Icon: FaEnvelope,     text: "toufikhossain546@gmail.com" },
+                  { Icon: FaPhoneAlt,     text: "+880 01914975286" },
                   { Icon: FaMapMarkerAlt, text: "Bangladesh" },
                 ].map(({ Icon, text }, i) => (
                   <div key={i} className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-2xl">
@@ -446,7 +446,7 @@ export default function PortfolioPage() {
             {[
               { Icon: FaGithub,   href: "https://github.com/toufikhossain11" },
               { Icon: FaLinkedin, href: "https://www.linkedin.com/in/toufik-hossain-779b62201/" },
-              { Icon: FaEnvelope, href: "mailto:yourname@gmail.com" },
+              { Icon: FaEnvelope, href: "toufikhossain546@gmail.com" },
             ].map(({ Icon, href }, i) => (
               <a key={i} href={href}
                 className="w-11 h-11 rounded-xl border border-white/10 bg-white/5 backdrop-blur-xl flex items-center justify-center hover:border-cyan-400/40 hover:text-cyan-400 hover:-translate-y-1 transition-all duration-300">
