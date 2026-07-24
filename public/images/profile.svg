@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f110f"/>
+      <stop offset="100%" stop-color="#152018"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6bf29a"/>
+      <stop offset="100%" stop-color="#1f8a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.15" stroke="#6bf29a" stroke-width="1">
+    <line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="0" y1="450" x2="600" y2="450"/>
+    <line x1="150" y1="0" x2="150" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="450" y1="0" x2="450" y2="600"/>
+  </g>
+  <circle cx="300" cy="240" r="120" fill="url(#ring)" opacity="0.18"/>
+  <circle cx="300" cy="230" r="88" fill="#1a1d19" stroke="url(#ring)" stroke-width="3"/>
+  <circle cx="300" cy="205" r="34" fill="#2a2f28"/>
+  <path d="M228 320c0-45 32-72 72-72s72 27 72 72" fill="#2a2f28"/>
+  <text x="300" y="500" font-family="monospace" font-size="22" fill="#6bf29a" text-anchor="middle">&lt;YourName /&gt;</text>
+  <text x="300" y="530" font-family="monospace" font-size="14" fill="#9aa19b" text-anchor="middle">replace with your photo</text>
+</svg>

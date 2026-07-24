@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111310"/>
+      <stop offset="100%" stop-color="#182219"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg2)"/>
+  <g opacity="0.5" font-family="monospace" font-size="15" fill="#6bf29a">
+    <text x="40" y="60">const developer = {</text>
+    <text x="64" y="92">stack: "MERN",</text>
+    <text x="64" y="124">focus: "Next.js",</text>
+    <text x="64" y="156">mindset: "curious",</text>
+    <text x="40" y="188">}</text>
+  </g>
+  <rect x="40" y="240" width="560" height="420" rx="24" fill="#1a1d19" stroke="#24271f"/>
+  <circle cx="320" cy="420" r="90" fill="#20281f" stroke="#3fbf6f" stroke-width="2"/>
+  <circle cx="320" cy="395" r="34" fill="#2a2f28"/>
+  <path d="M248 500c0-45 32-72 72-72s72 27 72 72" fill="#2a2f28"/>
+  <text x="320" y="700" font-family="monospace" font-size="16" fill="#9aa19b" text-anchor="middle">replace with a workspace / portrait photo</text>
+</svg>
