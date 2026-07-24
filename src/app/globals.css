@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+<<<<<<< HEAD
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -27,10 +28,16 @@
   --accent: #6bf29a;
   --accent-soft: #10281a;
   --accent-deep: #3fbf6f;
+=======
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+>>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }
 
 @theme inline {
   --color-background: var(--background);
+<<<<<<< HEAD
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
@@ -51,11 +58,24 @@
 
 html {
   scroll-behavior: smooth;
+=======
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+>>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+<<<<<<< HEAD
   font-family: var(--font-body);
   transition: background-color 0.35s ease, color 0.35s ease;
 }
@@ -123,4 +143,7 @@ body {
 .section-eyebrow::before {
   content: "// ";
   color: var(--accent);
+=======
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }

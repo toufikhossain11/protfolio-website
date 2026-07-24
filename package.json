@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "portfolio",
+=======
+  "name": "protfolio2",
+>>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
     "lucide-react": "^1.26.0",
@@ -30,5 +35,21 @@
     "eslint-config-next": "16.2.11",
     "tailwindcss": "^4",
     "typescript": "^5"
+=======
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.16.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4"
+>>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
   }
 }
