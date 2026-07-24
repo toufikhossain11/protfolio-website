@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -28,16 +27,10 @@
   --accent: #6bf29a;
   --accent-soft: #10281a;
   --accent-deep: #3fbf6f;
-=======
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
->>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }
 
 @theme inline {
   --color-background: var(--background);
-<<<<<<< HEAD
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
@@ -58,24 +51,11 @@
 
 html {
   scroll-behavior: smooth;
-=======
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
->>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-<<<<<<< HEAD
   font-family: var(--font-body);
   transition: background-color 0.35s ease, color 0.35s ease;
 }
@@ -85,14 +65,18 @@ body {
   color: #06110a;
 }
 
-/* subtle dot grid backdrop */
 .bg-grid {
   background-image: radial-gradient(circle, var(--border) 1px, transparent 1px);
   background-size: 28px 28px;
 }
 
 .text-gradient-accent {
-  background: linear-gradient(120deg, var(--accent-deep), var(--accent) 60%, var(--accent-deep));
+  background: linear-gradient(
+    120deg,
+    var(--accent-deep),
+    var(--accent) 60%,
+    var(--accent-deep)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -101,21 +85,24 @@ body {
 .font-display {
   font-family: var(--font-display);
 }
+
 .font-mono {
   font-family: var(--font-mono);
 }
 
-/* custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--background);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--border);
   border-radius: 999px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent);
 }
@@ -131,11 +118,17 @@ body {
   }
 }
 
-/* blinking terminal cursor used in hero signature element */
 @keyframes blink-caret {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
+
 .animate-caret {
   animation: blink-caret 1s step-end infinite;
 }
@@ -143,7 +136,4 @@ body {
 .section-eyebrow::before {
   content: "// ";
   color: var(--accent);
-=======
-  font-family: Arial, Helvetica, sans-serif;
->>>>>>> 3b1d42b5d9750d9eeac4ee47deaf8510a658272f
 }
