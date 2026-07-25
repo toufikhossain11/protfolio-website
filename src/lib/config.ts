@@ -138,7 +138,7 @@ export const projects: Project[] = [
     name: "TravelGo — Travel Booking Platform",
     description:
       "A full-featured travel platform with travel catalog, details, services, and an admin dashboard for inventory and order management.",
-    image: "/images/projects/project-1.svg",
+    image: "/images/projects/project-1.png",
     tech: ["Next.js", "TypeScript","Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Better Auth"],
     features: [
       "Secure authentication & role-based access",
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     name: "DocapPoint — Doctor Appointment Booking System",
     description:
       "A doctor appointment booking system with real-time availability, multi-user support, and email notifications for appointments and deadlines.",
-    image: "/images/projects/project-2.svg",
+    image: "/images/projects/project-2.png",
     tech: ["React.js","JavaScript", "Node.js", "Express.js", "MongoDB", "Firebase"],
     features: [
       "Drag-and-drop Kanban boards",
@@ -168,7 +168,7 @@ export const projects: Project[] = [
     name: "HavenFlow — A Property Rental Platform",
     description:
       "A property rental platform with a modern, responsive UI, MDX-powered content, and full SEO metadata for each listing.",
-    image: "/images/projects/project-3.svg",
+    image: "/images/projects/project-3.png",
     tech: ["Next.js", "TypeScript", 'Node.js', "MongoDB", "Tailwind CSS"],
     features: [
       "MDX-powered writing experience",
