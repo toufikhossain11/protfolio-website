@@ -3,18 +3,18 @@
 // ─────────────────────────────────────────────────────────────────────────
 
 export const siteConfig = {
-  name: "Your Name",
-  initials: "YN",
+  name: "Toufik Hossain",
+  initials: "Toufik",
   title: "MERN Stack Developer",
   tagline: "I build fast, accessible, full-stack web products.",
   description:
     "MERN Stack Developer specializing in Next.js, React, Node.js and TypeScript. I design and ship clean, performant, production-ready web applications end to end.",
   url: "https://your-domain.com",
-  email: "you@example.com",
-  phone: "+91 00000 00000",
+  email: "toufikhossain546@gmail.com",
+  phone: "+088 01914975286",
   address: "Remote · Available Worldwide",
-  location: "India",
-  resumeUrl: "/resume.pdf",
+  location: "Khulna, Bangladesh",
+  resumeUrl: "/Toufik _Hossain_Resume.pdf",
   ogImage: "/images/og.png",
   keywords: [
     "MERN Stack Developer",
@@ -28,10 +28,10 @@ export const siteConfig = {
 };
 
 export const socialLinks = [
-  { name: "GitHub", href: "https://github.com/yourusername", icon: "github" },
-  { name: "LinkedIn", href: "https://linkedin.com/in/yourusername", icon: "linkedin" },
-  { name: "WhatsApp", href: "https://wa.me/910000000000", icon: "whatsapp" },
-  { name: "Discord", href: "https://discord.com/users/yourusername", icon: "discord" },
+  { name: "GitHub", href: "https://github.com/toufikhossain11", icon: "github" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/toufik-hossain-779b62201/", icon: "linkedin" },
+  { name: "WhatsApp", href: "https://wa.me/01914975286", icon: "whatsapp" },
+  { name: "Discord", href: "https://discord.com/users/toufikhossain0619", icon: "discord" },
 ] as const;
 
 export const navLinks = [
@@ -135,49 +135,49 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "ShopWave — E-Commerce Platform",
+    name: "TravelGo — Travel Booking Platform",
     description:
-      "A full-featured e-commerce platform with product catalog, cart, checkout, and an admin dashboard for inventory and order management.",
+      "A full-featured travel platform with travel catalog, details, services, and an admin dashboard for inventory and order management.",
     image: "/images/projects/project-1.svg",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Better Auth"],
+    tech: ["Next.js", "TypeScript","Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Better Auth"],
     features: [
       "Secure authentication & role-based access",
       "Stripe-ready checkout flow",
       "Real-time inventory updates",
       "Admin analytics dashboard",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/shopwave",
+    liveUrl: "https://travelgo-client-teal.vercel.app/",
+    githubUrl: "https://github.com/toufikhossain11/travelgo-client",
   },
   {
-    name: "TaskFlow — Team Productivity App",
+    name: "DocapPoint — Doctor Appointment Booking System",
     description:
-      "A Kanban-style project management tool with real-time collaboration, drag-and-drop boards, and deadline tracking.",
+      "A doctor appointment booking system with real-time availability, multi-user support, and email notifications for appointments and deadlines.",
     image: "/images/projects/project-2.svg",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase"],
+    tech: ["React.js","JavaScript", "Node.js", "Express.js", "MongoDB", "Firebase"],
     features: [
       "Drag-and-drop Kanban boards",
       "Real-time multi-user sync",
       "Email deadline reminders",
       "Team workspace permissions",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/taskflow",
+    liveUrl: "https://assignment-09-docappoint-f97v.vercel.app/",
+    githubUrl: "https://github.com/toufikhossain11/assignment-09-docappoint",
   },
   {
-    name: "DevBlog — Markdown Publishing Platform",
+    name: "HavenFlow — A Property Rental Platform",
     description:
-      "A developer-focused blogging platform with markdown/MDX support, code syntax highlighting, and SEO-optimized article pages.",
+      "A property rental platform with a modern, responsive UI, MDX-powered content, and full SEO metadata for each listing.",
     image: "/images/projects/project-3.svg",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", 'Node.js', "MongoDB", "Tailwind CSS"],
     features: [
       "MDX-powered writing experience",
       "Syntax-highlighted code blocks",
       "Full SEO metadata per post",
       "Reading time & tag filtering",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/devblog",
+    liveUrl: "https://property-rental-client-sand.vercel.app/home",
+    githubUrl: "https://github.com/toufikhossain11/assignment-10-havenFlow-client",
   },
 ];
 
@@ -192,21 +192,22 @@ export const education: EducationItem[] = [
   {
     period: "2025 — 2026",
     title: "Full Stack Web Development Course",
-    place: "Your Institute Name",
+    place: "Programming Hero",
     description:
       "6-month intensive program covering the MERN stack, TypeScript, authentication, and modern deployment workflows.",
   },
   {
-    period: "2021 — 2025",
-    title: "Bachelor's Degree (placeholder)",
-    place: "Your University Name",
+    period: "2022 — 2023",
+    title: "Master's Degree (Political Science)",
+    place: "National University",
+    description: "Placeholder entry — replace with your actual details.",
+  },
+  {
+    period: "2018 — 2022",
+    title: "Bachelor's Degree (Political Science)",
+    place: "National University",
     description:
       "Placeholder entry — replace with your actual degree, major, and achievements.",
   },
-  {
-    period: "2019 — 2021",
-    title: "Higher Secondary Education (placeholder)",
-    place: "Your School Name",
-    description: "Placeholder entry — replace with your actual details.",
-  },
+  
 ];
